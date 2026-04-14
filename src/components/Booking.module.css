@@ -9,11 +9,10 @@
 }
 
 .calendlyContainer {
-  height: 600px;
+  min-height: 700px;
   background: var(--white);
-  border-radius: var(--radius-md);
-  box-shadow: 0 10px 40px rgba(17, 74, 139, 0.1);
-  overflow: hidden;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0,0,0,0.05);
 }
 
