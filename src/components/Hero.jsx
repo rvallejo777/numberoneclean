@@ -34,18 +34,9 @@ export default function Hero() {
 
       <div className={`glass ${styles.content}`}>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className={styles.flyerContainer}
-        >
-          <Image src="/flyer.png" alt="Number One Clean Flyer" width={500} height={400} className={styles.flyerImg} priority />
-        </motion.div>
-        
-        <motion.div
-           initial={{ opacity: 0 }}
-           animate={{ opacity: 1 }}
-           transition={{ delay: 0.3, duration: 0.8 }}
+           initial={{ opacity: 0, y: 20 }}
+           animate={{ opacity: 1, y: 0 }}
+           transition={{ duration: 0.8 }}
            className={styles.titleContainer}
         >
           <Image 
@@ -54,6 +45,7 @@ export default function Hero() {
             width={400} 
             height={150} 
             className={styles.titleLogo}
+            priority
           />
         </motion.div>
         
