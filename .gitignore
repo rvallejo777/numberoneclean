@@ -49,3 +49,5 @@ hostinger_auto/
 github_upload/
 deploy.zip
 *.db
+
+git-portable.exe
