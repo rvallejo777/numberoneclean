@@ -6,7 +6,7 @@ import styles from './Packages.module.css';
 const packages = [
   {
     title: 'Limpieza de Sala',
-    price: '$799',
+    price: '$1200',
     features: ['Inyección y Succión Profunda', 'Desinfección Anti-Ácaros', 'Eliminación de Malos Olores', 'Secado Rápido', 'Eliminación de Manchas Superficiales'],
     popular: true,
     promo: '¡Promoción por Apertura!'
