@@ -5,7 +5,7 @@ import styles from './Packages.module.css';
 
 const packages = [
   {
-    title: 'Limpieza de Sala',
+    title: 'Limpieza de Sala (2 piezas)',
     price: '$1200',
     features: ['Inyección y Succión Profunda', 'Desinfección Anti-Ácaros', 'Eliminación de Malos Olores', 'Secado Rápido', 'Eliminación de Manchas Superficiales'],
     popular: true,
@@ -20,7 +20,7 @@ const packages = [
   },
   {
     title: 'Limpieza de Colchón',
-    price: '$599',
+    price: '$499',
     features: ['Lavado Profundo 360°', 'Tratamiento Especial Anti-Chinches', 'Neutralización de Olores', 'Sanitización UV', 'Secado Express'],
     popular: false,
     promo: 'Duerme sin ácaros'
