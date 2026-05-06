@@ -12,8 +12,8 @@ const packages = [
     promo: '¡Promoción por Apertura!'
   },
   {
-    title: 'Limpieza de Alfombra',
-    price: '$499',
+    title: 'Limpieza de Alfombra / Tapete',
+    price: '$599',
     features: ['Lavado a Presión Controlada', 'Shampoo Hipoalergénico', 'Restauración de Volumen', 'Secado sin Humedad', 'Protección contra polvo'],
     popular: false,
     promo: 'Dile adiós a las alergias'
