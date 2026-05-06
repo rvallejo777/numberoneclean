@@ -12,7 +12,7 @@ const packages = [
     promo: '¡Promoción por Apertura!'
   },
   {
-    title: 'Limpieza de Alfombra / Tapete',
+    title: 'Limpieza de Alfombra (cotizacion por m2) / Tapete (distintos tamaños)',
     price: '$599',
     features: ['Lavado a Presión Controlada', 'Shampoo Hipoalergénico', 'Restauración de Volumen', 'Secado sin Humedad', 'Protección contra polvo'],
     popular: false,
