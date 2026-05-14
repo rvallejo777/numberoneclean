@@ -6,7 +6,7 @@ import styles from './Flyer.module.css';
 const packages = [
   { name: 'Limpieza de Sala (2 piezas)', price: '$950', desc: 'Eliminación total de manchas y olores' },
   { name: 'Limpieza de Colchón', price: '$499', desc: 'Tratamiento profundo anti-ácaros' },
-  { name: 'Limpieza de Alfombra (cotizacion por m2) / Tapete (distintos tamaños)', price: '$599', desc: 'Desinfección de fibras profundas' }
+  { name: 'Limpieza de Alfombra (cotizacion por m2) / Tapete (distintos tamaños)', price: '$399', desc: 'Desinfección de fibras profundas' }
 ];
 
 export default function FlyerV4() {
