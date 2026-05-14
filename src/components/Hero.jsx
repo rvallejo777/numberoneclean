@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import styles from './Hero.module.css';
 import Image from 'next/image';
+import { MessageCircle } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -67,6 +68,21 @@ export default function Hero() {
         >
           <a href="#booking" className={styles.primaryBtn}>Agendar Cita Rápidamente</a>
           <a href="#packages" className={styles.secondaryBtn}>Ver Paquetes</a>
+        </motion.div>
+
+        <motion.div 
+          className={styles.whatsappSection}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.2, duration: 0.8 }}
+        >
+          <a href="https://wa.me/525527287727" target="_blank" rel="noopener noreferrer" className={styles.whatsappLink}>
+            <MessageCircle size={40} />
+            Tel / Whatsapp 5527287727
+          </a>
+          <p className={styles.whatsappSubtext}>
+            ¡mándanos un whats y te responderemos al instante!
+          </p>
         </motion.div>
       </div>
     </section>
