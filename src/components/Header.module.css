@@ -37,8 +37,14 @@
 }
 
 .logo {
+  height: 65px;
+  width: auto;
   object-fit: contain;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.scrolled .logo {
+  height: 52px;
 }
 
 .logo:hover {
@@ -52,7 +58,7 @@
 .navList {
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  gap: 1.8rem;
   list-style: none;
 }
 

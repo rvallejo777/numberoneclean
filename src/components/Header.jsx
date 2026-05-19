@@ -25,12 +25,12 @@ export default function Header() {
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
         <div className={styles.logoContainer}>
-          <a href="#">
+          <a href="/">
             <Image 
               src="/logo.jpg" 
               alt="Number One Clean Logo" 
-              width={140} 
-              height={50} 
+              width={180} 
+              height={65} 
               className={styles.logo}
               priority
             />
@@ -41,16 +41,19 @@ export default function Header() {
         <nav className={styles.desktopNav}>
           <ul className={styles.navList}>
             <li>
-              <a href="#fotos" className={styles.navLink}>Fotos</a>
+              <a href="/sobre-nosotros" className={styles.navLink}>Sobre Nosotros</a>
             </li>
             <li>
-              <a href="#videos" className={styles.navLink}>Videos</a>
+              <a href="/#fotos" className={styles.navLink}>Fotos</a>
             </li>
             <li>
-              <a href="#packages" className={styles.navLink}>Paquetes</a>
+              <a href="/#videos" className={styles.navLink}>Videos</a>
             </li>
             <li>
-              <a href="#booking" className={`${styles.navLink} ${styles.cta}`}>Agendar</a>
+              <a href="/#packages" className={styles.navLink}>Paquetes</a>
+            </li>
+            <li>
+              <a href="/#booking" className={`${styles.navLink} ${styles.cta}`}>Agendar</a>
             </li>
           </ul>
         </nav>
@@ -70,7 +73,16 @@ export default function Header() {
             <ul className={styles.mobileNavList}>
               <li>
                 <a 
-                  href="#fotos" 
+                  href="/sobre-nosotros" 
+                  className={styles.mobileNavLink}
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Sobre Nosotros
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/#fotos" 
                   className={styles.mobileNavLink}
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -79,7 +91,7 @@ export default function Header() {
               </li>
               <li>
                 <a 
-                  href="#videos" 
+                  href="/#videos" 
                   className={styles.mobileNavLink}
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -88,7 +100,7 @@ export default function Header() {
               </li>
               <li>
                 <a 
-                  href="#packages" 
+                  href="/#packages" 
                   className={styles.mobileNavLink}
                   onClick={() => setMobileMenuOpen(false)}
                 >
@@ -97,7 +109,7 @@ export default function Header() {
               </li>
               <li>
                 <a 
-                  href="#booking" 
+                  href="/#booking" 
                   className={`${styles.mobileNavLink} ${styles.mobileCta}`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
