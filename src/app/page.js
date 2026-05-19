@@ -1,6 +1,8 @@
+import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import AboutUs from '@/components/AboutUs';
 import Packages from '@/components/Packages';
+import Gallery from '@/components/Gallery';
 import Booking from '@/components/Booking';
 import ChatWidget from '@/components/ChatWidget';
 
@@ -11,12 +13,17 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
-      <AboutUs />
-      <Packages />
-      <Booking />
+    <>
+      <Header />
+      <main style={{ paddingTop: '80px' }}>
+        <Hero />
+        <AboutUs />
+        <Packages />
+        <Gallery />
+        <Booking />
+      </main>
       <ChatWidget />
-    </main>
+    </>
   );
 }
+
