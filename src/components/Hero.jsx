@@ -56,7 +56,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          Especialistas en Salas, Colchones y Alfombras en Huixquilucan y alrededores. 
+          Especialistas en Salas, Colchones y Alfombras en Bosque Real e Interlomas. 
           Eliminamos ácaros, manchas y olores previniendo alergias con nuestra tecnología de inyección-succión.
         </motion.p>
         

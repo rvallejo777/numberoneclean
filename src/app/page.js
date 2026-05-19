@@ -7,7 +7,7 @@ import ChatWidget from '@/components/ChatWidget';
 
 export const metadata = {
   title: 'Number One Clean | Limpieza de Salas, Colchones y Alfombras',
-  description: 'Especialistas en limpieza profunda de salas, colchones y alfombras en Huixquilucan. Eliminamos ácaros, manchas y olores con tecnología de inyección-succión.',
+  description: 'Especialistas en limpieza profunda de salas, colchones y alfombras en Bosque Real e Interlomas. Eliminamos ácaros, manchas y olores con tecnología de inyección-succión.',
 };
 
 export default function Home() {

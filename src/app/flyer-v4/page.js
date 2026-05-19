@@ -25,7 +25,7 @@ export default function FlyerV4() {
              <Sparkles size={40} color="#73B3E7" />
           </div>
           <h1 className={styles.title}>HOGAR SALUDABLE</h1>
-          <p className={styles.subtitle}>Number One Clean • Huixquilucan</p>
+          <p className={styles.subtitle}>Number One Clean • Bosque Real e Interlomas</p>
         </header>
 
         <main className={styles.content}>
@@ -76,7 +76,7 @@ export default function FlyerV4() {
             <Phone size={20} color="#114A8B" />
             <span className={styles.phone}>55 2728 7727</span>
           </div>
-          <p className={styles.location}>Servicio en Huixquilucan y alrededores</p>
+          <p className={styles.location}>Servicio en Bosque Real e Interlomas</p>
           
           <button className={styles.cta} onClick={() => window.open('https://wa.me/525527287727', '_blank')}>
             <MessageCircle size={22} />
