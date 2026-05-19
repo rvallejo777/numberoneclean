@@ -11,7 +11,7 @@ export default function SobreNosotrosPage() {
   return (
     <>
       <Header />
-      <main style={{ paddingTop: '80px', minHeight: 'calc(100vh - 80px)' }}>
+      <main style={{ paddingTop: '130px', minHeight: 'calc(100vh - 130px)' }}>
         <AboutUs />
       </main>
       <ChatWidget />

@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 130px;
   display: flex;
   align-items: center;
   z-index: 1000;
@@ -16,7 +16,7 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 4px 20px rgba(17, 74, 139, 0.08);
-  height: 70px;
+  height: 95px;
   border-bottom: 1px solid rgba(17, 74, 139, 0.05);
 }
 
@@ -37,14 +37,14 @@
 }
 
 .logo {
-  height: 65px;
+  height: 110px;
   width: auto;
   object-fit: contain;
   transition: all 0.3s ease;
 }
 
 .scrolled .logo {
-  height: 52px;
+  height: 80px;
 }
 
 .logo:hover {

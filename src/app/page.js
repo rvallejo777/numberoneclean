@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main style={{ paddingTop: '80px' }}>
+      <main style={{ paddingTop: '130px' }}>
         <Hero />
         <Packages />
         <Gallery />

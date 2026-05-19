@@ -29,8 +29,8 @@ export default function Header() {
             <Image 
               src="/logo.jpg" 
               alt="Number One Clean Logo" 
-              width={180} 
-              height={65} 
+              width={360} 
+              height={130} 
               className={styles.logo}
               priority
             />
@@ -41,9 +41,6 @@ export default function Header() {
         <nav className={styles.desktopNav}>
           <ul className={styles.navList}>
             <li>
-              <a href="/sobre-nosotros" className={styles.navLink}>Sobre Nosotros</a>
-            </li>
-            <li>
               <a href="/#fotos" className={styles.navLink}>Fotos</a>
             </li>
             <li>
@@ -51,6 +48,9 @@ export default function Header() {
             </li>
             <li>
               <a href="/#packages" className={styles.navLink}>Paquetes</a>
+            </li>
+            <li>
+              <a href="/sobre-nosotros" className={styles.navLink}>Sobre Nosotros</a>
             </li>
             <li>
               <a href="/#booking" className={`${styles.navLink} ${styles.cta}`}>Agendar</a>
@@ -71,15 +71,6 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className={`${styles.mobileMenu} glass`}>
             <ul className={styles.mobileNavList}>
-              <li>
-                <a 
-                  href="/sobre-nosotros" 
-                  className={styles.mobileNavLink}
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Sobre Nosotros
-                </a>
-              </li>
               <li>
                 <a 
                   href="/#fotos" 
@@ -105,6 +96,15 @@ export default function Header() {
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Paquetes
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/sobre-nosotros" 
+                  className={styles.mobileNavLink}
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  Sobre Nosotros
                 </a>
               </li>
               <li>
