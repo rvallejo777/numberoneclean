@@ -55,5 +55,6 @@ github_upload/
 deploy.zip
 /scratch/
 *.db
+/leads.json
 
 git-portable.exe
