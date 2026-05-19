@@ -13,8 +13,13 @@
 # testing
 /coverage
 
-# next.js
-/.next/
+# next.js production build files
+/.next/cache/
+/.next/dev/
+/.next/diagnostics/
+/.next/node_modules/
+/.next/standalone/
+/.next/types/
 /out/
 
 # production
@@ -48,6 +53,7 @@ hostinger_deploy/
 hostinger_auto/
 github_upload/
 deploy.zip
+/scratch/
 *.db
 
 git-portable.exe

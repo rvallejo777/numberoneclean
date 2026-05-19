@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/chat/route": "/api/chat",
+  "/api/leads/route": "/api/leads",
+  "/favicon.ico/route": "/favicon.ico",
+  "/flyer-v4/page": "/flyer-v4",
+  "/flyers/page": "/flyers",
+  "/page": "/",
+  "/sobre-nosotros/page": "/sobre-nosotros"
+}

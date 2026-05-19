@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/flyer-v4/layout,_N_T_/flyer-v4/page,_N_T_/flyer-v4"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/flyer-v4/__PAGE__",
+    "/flyer-v4",
+    "/_index",
+    "/_head"
+  ]
+}
