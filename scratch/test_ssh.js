@@ -1,26 +1,35 @@
 const { NodeSSH } = require('node-ssh');
-require('dotenv').config({ path: '.env.deploy' });
+const fs = require('fs');
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '..', '.env.deploy') });
 
 const ssh = new NodeSSH();
 
-async function main() {
-  console.log(`Connecting to ${process.env.SSH_HOST}:${process.env.SSH_PORT} as ${process.env.SSH_USER}...`);
+async function testConnection() {
+  console.log('Attempting SSH connection...');
+  console.log(`Host: ${process.env.SSH_HOST || '185.211.7.70'}`);
+  console.log(`Port: ${process.env.SSH_PORT || '65002'}`);
+  console.log(`User: ${process.env.SSH_USER || 'u185421649'}`);
+  
   try {
     await ssh.connect({
-      host: process.env.SSH_HOST,
-      username: process.env.SSH_USER,
-      port: parseInt(process.env.SSH_PORT),
-      password: process.env.SSH_PASS,
-      debug: (msg) => console.log('DEBUG:', msg)
+      host: process.env.SSH_HOST || '185.211.7.70',
+      username: process.env.SSH_USER || 'u185421649',
+      port: parseInt(process.env.SSH_PORT || '65002', 10),
+      password: process.env.SSH_PASSWORD || 'Chckcl7406!',
     });
-    console.log('SUCCESS! Connected to SSH server.');
-    const result = await ssh.execCommand('id; pwd; ls -la');
+    console.log('SSH connection SUCCESSFUL!');
+    
+    // Check files and git status
+    console.log('Running git status on server...');
+    const result = await ssh.execCommand('git status', { cwd: 'domains/numberoneclean.mx/public_html' });
     console.log('STDOUT:', result.stdout);
     console.log('STDERR:', result.stderr);
+    
     ssh.dispose();
   } catch (err) {
-    console.error('CONNECTION FAILED:', err);
+    console.error('SSH Connection FAILED:', err.message);
   }
 }
 
-main();
+testConnection();

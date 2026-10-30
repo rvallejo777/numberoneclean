@@ -6,22 +6,22 @@ import styles from './Packages.module.css';
 const packages = [
   {
     title: 'Limpieza de Sala (2 piezas)',
-    price: '$950',
+    price: '$1600',
     features: ['Inyección y Succión Profunda', 'Desinfección Anti-Ácaros', 'Eliminación de Malos Olores', 'Secado Rápido', 'Eliminación de Manchas Superficiales'],
     popular: true,
-    promo: '¡Promoción por Apertura!'
+    promo: null
   },
   {
     title: 'Limpieza de Alfombra (cotizacion por m2) / Tapete (distintos tamaños)',
-    price: '$399',
+    price: '$650',
     features: ['Lavado a Presión Controlada', 'Shampoo Hipoalergénico', 'Restauración de Volumen', 'Secado sin Humedad', 'Protección contra polvo'],
     popular: false,
     promo: 'Dile adiós a las alergias'
   },
   {
     title: 'Limpieza de Colchón',
-    price: '$499',
-    features: ['Lavado Profundo 360°', 'Tratamiento Especial Anti-Chinches', 'Neutralización de Olores', 'Sanitización UV', 'Secado Express'],
+    price: '$600',
+    features: ['Individual Sintético: $600', 'Individual Algodón / Fibras Naturales: $700', 'Matrimonial: $800', 'Tratamiento Especial Anti-Chinches', 'Neutralización de Olores', 'Sanitización UV', 'Secado Express'],
     popular: false,
     promo: 'Duerme sin ácaros'
   }
