@@ -7,6 +7,11 @@ import Image from 'next/image';
 import styles from './Gallery.module.css';
 
 const photos = [
+  '/fotos/sala-y-tapete.jpg',
+  '/fotos/alfombra-casino.jpg',
+  '/fotos/maquina-inyeccion-succion.jpg',
+  '/fotos/aspiradoras-oreck.jpg',
+  '/fotos/tornado-van2.jpg',
   '/fotos/081570c7-9300-4573-86e5-8141c183cfe9.jpg',
   '/fotos/0ef28c1e-75f6-4287-876f-33973dcb94a6.jpg',
   '/fotos/1c93d0e5-20ed-4434-b260-f0691c9b9dea.jpg',
@@ -32,6 +37,33 @@ export default function Gallery() {
 
   return (
     <div className={styles.galleryWrapper}>
+      {/* Tornado Van Banner Section */}
+      <section className={styles.vanSection}>
+        <div className={styles.container}>
+          <motion.div
+            className={styles.vanShowcase}
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <div className={styles.vanSign}>
+              <span>Busca la Numberoneclean Van con nuestro Bulldog Ingles</span>
+            </div>
+            <div
+              className={styles.vanImageWrapper}
+              onClick={() => setSelectedPhoto('/fotos/tornado-van2.jpg')}
+            >
+              <img
+                src="/fotos/tornado-van2.jpg"
+                alt="Busca la Numberoneclean Van con nuestro Bulldog Ingles"
+                className={styles.vanImage}
+              />
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Photos Section */}
       <section id="fotos" className={styles.section}>
         <div className={styles.container}>

@@ -2,6 +2,56 @@
   width: 100%;
 }
 
+.vanSection {
+  padding: 4rem 2rem 1rem 2rem;
+  background-color: var(--background);
+}
+
+.vanShowcase {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: 0 15px 35px rgba(17, 74, 139, 0.12);
+  border: 2px solid rgba(115, 179, 231, 0.35);
+  text-align: center;
+}
+
+.vanSign {
+  background: linear-gradient(135deg, var(--primary) 0%, #0a315e 100%);
+  color: var(--white);
+  padding: 1.1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 20px rgba(17, 74, 139, 0.25);
+  display: inline-block;
+}
+
+.vanImageWrapper {
+  position: relative;
+  width: 100%;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.vanImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.4s ease;
+}
+
+.vanImageWrapper:hover .vanImage {
+  transform: scale(1.02);
+}
+
 .section {
   padding: 6rem 2rem;
   background-color: var(--background);
@@ -186,6 +236,17 @@
 }
 
 @media (max-width: 768px) {
+  .vanSection {
+    padding: 2.5rem 1rem 0.5rem 1rem;
+  }
+  .vanShowcase {
+    padding: 1.2rem;
+  }
+  .vanSign {
+    font-size: 1.15rem;
+    padding: 0.9rem 1.2rem;
+    border-radius: 20px;
+  }
   .section, .sectionDark {
     padding: 4rem 1.5rem;
   }
