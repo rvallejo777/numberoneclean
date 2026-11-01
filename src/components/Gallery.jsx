@@ -25,6 +25,11 @@ const photos = [
 ];
 
 const videos = [
+  '/videos/OCTUBRE_2026_TAPETE_PERSA.mp4',
+  '/videos/OCTUBRE_2026_SILLA.mp4',
+  '/videos/OCTUBRE_2026_MYTEE_CABECERA.mp4',
+  '/videos/OCTUBRE_2026_ASPIRADORA_VAPOR.mp4',
+  '/videos/OCT_2026_COJINES.mp4',
   '/videos/WhatsApp Video 2026-05-13 at 10.48.20 PM.mp4',
   '/videos/WhatsApp Video 2026-05-13 at 10.48.20 PM (1).mp4',
   '/videos/WhatsApp Video 2026-05-13 at 10.48.20 PM (2).mp4',
