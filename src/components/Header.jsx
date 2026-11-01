@@ -27,10 +27,10 @@ export default function Header() {
         <div className={styles.logoContainer}>
           <a href="/">
             <Image 
-              src="/logo.jpg" 
+              src="/logo-v2.jpg" 
               alt="Number One Clean Logo" 
-              width={360} 
-              height={130} 
+              width={110} 
+              height={110} 
               className={styles.logo}
               priority
             />

@@ -6,6 +6,7 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/flyer-v4/page": "app/flyer-v4/page.js",
   "/flyers/page": "app/flyers/page.js",
+  "/icon.png/route": "app/icon.png/route.js",
   "/page": "app/page.js",
   "/sobre-nosotros/page": "app/sobre-nosotros/page.js"
 }

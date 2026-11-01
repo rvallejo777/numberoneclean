@@ -41,10 +41,10 @@ export default function Hero() {
            className={styles.titleContainer}
         >
           <Image 
-            src="/header-logo.jpg" 
+            src="/logo-v2.jpg" 
             alt="Number One Clean - Limpieza Profesional" 
-            width={400} 
-            height={150} 
+            width={260} 
+            height={260} 
             className={styles.titleLogo}
             priority
           />

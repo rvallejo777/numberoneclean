@@ -6,6 +6,7 @@
   "/favicon.ico/route": "/favicon.ico",
   "/flyer-v4/page": "/flyer-v4",
   "/flyers/page": "/flyers",
+  "/icon.png/route": "/icon.png",
   "/page": "/",
   "/sobre-nosotros/page": "/sobre-nosotros"
 }

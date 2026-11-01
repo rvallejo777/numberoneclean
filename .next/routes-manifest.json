@@ -72,6 +72,12 @@
       "namedRegex": "^/flyers(?:/)?$"
     },
     {
+      "page": "/icon.png",
+      "regex": "^/icon\\.png(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon\\.png(?:/)?$"
+    },
+    {
       "page": "/sobre-nosotros",
       "regex": "^/sobre\\-nosotros(?:/)?$",
       "routeKeys": {},

@@ -1,4 +1,4 @@
-﻿<!-- BEGIN:nextjs-agent-rules -->
+<!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
 
 This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
@@ -17,5 +17,7 @@ The production server on Hostinger runs Next.js standalone directly from the tra
    `& ".git_bin\cmd\git.exe" commit -m "Update message"`
 4. Push to production:
    `& ".git_bin\cmd\git.exe" push origin main`
+5. Sync and restart on Hostinger via SSH (credentials in `.env.deploy`):
+   Pull `origin/main` in `/home/u185421649/domains/numberoneclean.mx/public_html/.builds/last-source`, copy `.next` and `public` into `/home/u185421649/domains/numberoneclean.mx/nodejs`, and touch `/home/u185421649/domains/numberoneclean.mx/nodejs/tmp/restart.txt` (killing old `numberoneclean.mx` worker PIDs so Passenger reloads immediately).
 
 The remote is already configured with the necessary authentication tokens.

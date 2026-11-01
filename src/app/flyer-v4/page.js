@@ -22,7 +22,7 @@ export default function FlyerV4() {
         
         <header className={styles.header}>
           <div className={styles.logoArea}>
-             <Sparkles size={40} color="#73B3E7" />
+             <img src="/logo-v2.jpg" alt="Number One Clean Logo" style={{ width: '90px', height: '90px', borderRadius: '50%', objectFit: 'contain' }} />
           </div>
           <h1 className={styles.title}>HOGAR SALUDABLE</h1>
           <p className={styles.subtitle}>Number One Clean • Bosque Real e Interlomas</p>

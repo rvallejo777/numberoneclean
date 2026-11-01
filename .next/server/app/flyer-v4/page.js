@@ -1,7 +1,7 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/flyer-v4/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0f~uqie._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0cdyz2r._.js")
 R.c("server/chunks/ssr/node_modules_0vtdjw7._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0gdz9d6.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_0ro~af_.js")
 R.c("server/chunks/ssr/[root-of-the-server]__0ymxq~-._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__09z7o2x._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__06fh33y._.js")
@@ -10,5 +10,5 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0cjv-23.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_0lgvd_..js")
 R.c("server/chunks/ssr/_next-internal_server_app_flyer-v4_page_actions_0ji698v.js")
-R.m(57561)
-module.exports=R.m(57561).exports
+R.m(12323)
+module.exports=R.m(12323).exports

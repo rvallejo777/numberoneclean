@@ -39,6 +39,7 @@
 .logo {
   height: 110px;
   width: auto;
+  border-radius: 50%;
   object-fit: contain;
   transition: all 0.3s ease;
 }
